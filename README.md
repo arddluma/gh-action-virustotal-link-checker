@@ -6,6 +6,8 @@ Get VirusTotal API KEY [here](https://support.virustotal.com/hc/en-us/articles/1
 
 **Due to VirusTotal API personal limits, GH Action checks each url every 30 seconds**
 
+*Idea: Thanks to [Eric Siu](https://github.com/randomishwalk) a.k.a randomishwalk [issue link](https://github.com/4337Mafia/awesome-account-abstraction/issues/187)*
+
 Example:
 ```bash
 name: Check Malicious Links

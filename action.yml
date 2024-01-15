@@ -1,0 +1,23 @@
+name: 'VirusTotal Link Checker'
+description: 'Github Action to check links using VirusTotal API'
+author: 'arddluma'
+inputs:
+  virustotal-api-key:
+    description: 'VirusTotal API Key'
+    required: true
+  filename:
+    description: 'Filename containing links (Default: README.md)'
+    required: false
+  malicious_threshold:
+    description: 'Malicious threshold  (Default: 0)'
+    required: false
+  suspicious_threshold:
+    description: 'Suspicious threshold (Default: 0)'
+    required: false
+    
+runs:
+  using: 'node16'
+  main: 'dist/action.js'
+branding:
+  icon: 'cloud'
+  color: 'orange'

@@ -8,6 +8,8 @@ Get VirusTotal API KEY [here](https://support.virustotal.com/hc/en-us/articles/1
 
 *Idea: Thanks to [Eric Siu](https://github.com/randomishwalk) a.k.a randomishwalk [issue link](https://github.com/4337Mafia/awesome-account-abstraction/issues/187)*
 
+[Demo action run](https://github.com/arddluma/awesome-account-abstraction/actions/runs/7530060851/job/20495640081)
+
 Example:
 ```bash
 name: Check Malicious Links
